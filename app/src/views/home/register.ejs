@@ -11,20 +11,19 @@
     <div class="wrapper">
       <div class="container">
         <h1>Welcome</h1>
-        <!-- <form class="register-form">
-          <input type="text" placeholder="name" />
-          <input type="password" placeholder="password" />
-          <input type="text" placeholder="email address" />
-          <button>create</button>
-          <p class="message">이미 가입하셨나요? <a href="#">로그인</a></p>
-        </form> -->
 
         <form class="form">
           <input id="id" type="text" placeholder="아이디" />
+          <input id="name" type="text" placeholder="이름" />
           <input id="pw" type="password" placeholder="비밀번호" />
-          <button type="submit" id="login-button">로그인</button>
+          <input
+            id="confirm-pw"
+            type="password"
+            placeholder="비밀번호 재입력"
+          />
+          <button type="submit" id="login-button">회원가입</button>
           <p class="message">
-            계정이 없으신가요? <a href="/register">회원가입</a>
+            이미 계정이 있으신가요? <a href="/login">로그인</a>
           </p>
         </form>
       </div>
