@@ -12,7 +12,8 @@
     "express": "4.17.1"
   },
   "devDependencies": {
-    "less": "4.1.1"
+    "less": "4.1.1",
+    "nodemon": "^2.0.7"
   },
   "scripts": {
     "start": "nodemon ./bin/www.js",
